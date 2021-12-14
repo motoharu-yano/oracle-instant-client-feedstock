@@ -5,7 +5,7 @@ mkdir -p share
 mkdir -p lib
 
 cd share
-cp -a ${SRC_DIR}/instantclient-basic/. .
+#cp -a ${SRC_DIR}/instantclient-basic/. .
 
 cp ${SRC_DIR}/instantclient-basic/libclntsh.so.21.1 $PREFIX/lib/
 cp ${SRC_DIR}/instantclient-basic/libnnz21.so $PREFIX/lib/
