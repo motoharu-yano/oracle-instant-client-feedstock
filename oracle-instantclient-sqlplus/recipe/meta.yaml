@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-sqlplus-linux.x64-{{ version }}dbru.zip
-  sha256: 58714313680f67334ca36a684a4f4a7344842ffe224192f5781b9f07f0750009
+  sha256: 9b118bf8065dcd4f332fd1e7ae00186c9b2dd1cfd57e9cefcac6a6a367c8d388
   folder: instantclient-sqlplus
 
 build:
