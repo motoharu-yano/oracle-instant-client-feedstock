@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd $PREFIX
+mkdir -p bin
 mkdir -p share
 mkdir -p lib
 
