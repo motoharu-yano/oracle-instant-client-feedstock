@@ -5,9 +5,9 @@ mkdir -p share
 mkdir -p lib
 
 cd share
-unzip $RECIPE_DIR/instantclient-basic-linux.x64-${PKG_VERSION}dbru.zip
+cp -a ${SRC_DIR}/instantclient-basic/. .
 
-cd instantclient*
+cd ${SRC_DIR}/instantclient-basic
 cp libclntsh.so.21.1 ../../lib/
 cp libnnz21.so ../../lib/
 cp libociei.so ../../lib/
