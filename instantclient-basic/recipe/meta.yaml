@@ -8,6 +8,7 @@ package:
 
 source:
   url: https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-basic-linux.x64-{{ version }}dbru.zip
+  sha256: ee2ad79126a7375e9102c4db77c4acae6ae6ffe3e082403b88826d96d927a122
   folder: instantclient-basic
 
 build:
